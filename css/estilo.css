@@ -1,0 +1,362 @@
+.container{
+    display: flex;
+    margin: 0px auto;
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+    background-color:grey;
+}
+
+a{
+    color:black;
+}
+
+.header{
+    display: flex;
+    flex:1;
+    background-color:rgb(228, 118, 200);
+    width: 100%;
+    margin-top: 0px auto;
+}
+
+h1{
+    margin: 0;
+}
+
+.caixa1{
+    display: flex;
+    flex:2;
+    width: 100%;
+    background-color:rgb(167, 164, 160);
+    margin-left:0px;
+}
+
+.caixa2{
+    display: flex;
+    width: 250px;
+    height:300px;
+    background-color:rgb(231, 165, 215);
+    flex-direction:column;
+    margin: 0px auto;
+}
+
+.caixa3{
+    display: flex;
+    width: 500px;
+    background-color:rgb(231, 190, 221);
+}
+
+.caixa4{
+    display: flex;
+    flex-direction:column;
+    width: 250px;
+    background-color:rgb(231, 210, 226);
+    margin-right: 0px;
+}
+
+.caixa5{
+    display: flex;
+    height: 300px;
+    width:250px;
+    justify-content: center;
+}
+
+
+.footer{
+    display: flex;
+    width:100%;
+    background-color:rgb(228, 118, 200);
+    flex: 1;
+}
+
+.menubox{
+    display: flex;
+    margin: 0px auto;
+    width:50%;
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:rgb(255, 255, 255);
+}
+
+.pag1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 200px;
+    width:90px;
+    height:40px;
+    background-color:rgb(240, 19, 185);
+    color: white;
+    border-radius:10px;
+}
+
+.pag2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:90px;
+    height:40px;
+    background-color:rgb(240, 19, 185);
+    color: white;
+    border-radius:10px;
+}
+
+.pag3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 200px;
+    width:90px;
+    height:40px;
+    background-color:rgb(240, 19, 185);
+    color: white;
+    border-radius:10px;
+}
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:50px;
+    margin-top:50px;
+    height:30px;
+    background-color:rgb(247, 130, 218);
+    color: rgb(0, 0, 0);
+    border-radius:10px;
+}
+
+.botao2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:50px;
+    margin-top:50px;
+    margin-left: 10px;
+    margin-right:10px;
+    height:30px;
+    background-color:rgb(241, 200, 231);
+    color: rgb(0, 0, 0);
+    border-radius:10px;
+}
+
+.botao3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:50px;
+    margin-top:50px;
+    height:30px;
+    background-color:rgb(247, 130, 218);
+    color: rgb(0, 0, 0);
+    border-radius:10px;
+}
+
+.container2{
+    display: flex;
+    margin: 0px auto;
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+    background-color:grey;
+}
+
+.container21{
+    display: flex;
+    margin: 0px auto;
+    width: 1000px;
+    height: 300px;
+    flex-direction: row;
+    background-color:grey;
+}
+
+.header2{
+    display:flex;
+    width: 700px;
+    height: 175px;
+    background-color: rgb(202, 244, 250);
+}
+
+.caixaDireita{
+    display:flex;
+    flex:1;
+    width:300px;
+    height:350px;
+    background-color:rgb(112, 225, 245);
+}
+
+.caixaEsquerda{
+    display:flex;
+    flex:2;
+    flex-direction: column;
+    height: 350px;
+    background-color: rgb(212, 161, 228);
+}
+
+.artigos{
+    display:flex;
+    height:150px;
+    flex-direction:row;
+}
+
+.artigo1{
+    display: flex;
+    width: 350px;
+    height:175px;
+    background-color:rgb(180, 243, 255);
+}
+
+.artigo2{
+    display: flex;
+    width: 350px;
+    height:175px;
+    background-color:rgb(151, 231, 247);
+}
+
+.menubox2{
+    display: flex;
+    margin: 0px auto;
+    width:50%;
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:rgb(255, 255, 255);
+}
+
+.pag4{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 200px;
+    width:90px;
+    height:40px;
+    background-color:rgb(93, 195, 223);
+    color: white;
+    border-radius:10px;
+}
+
+.pag5{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:90px;
+    height:40px;
+    background-color:rgb(93, 195, 223);
+    color: white;
+    border-radius:10px;
+}
+
+.pag6{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 200px;
+    width:90px;
+    height:40px;
+    background-color:rgb(93, 195, 223);
+    color: white;
+    border-radius:10px;
+}
+
+.footer2{
+    display: flex;
+    width:100%;
+    background-color:rgba(106, 209, 237, 0.868);
+    margin-top:50px;
+    height:300px;
+}
+
+.container3{
+    display: flex;
+    margin: 0px auto;
+    width: 1200px;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+}
+
+.box1{
+    width:200px;
+    height:200px;
+    background-color:rgb(179, 60, 190);
+}
+
+.box2{
+    width:200px;
+    height:300px;
+    background-color:rgba(172, 73, 181, 0.679);
+}
+
+.box3{
+    width:200px;
+    height:150px;
+    background-color:rgb(179, 60, 190);
+}
+
+.box4{
+    width:200px;
+    height:350px;
+    background-color:rgba(172, 73, 181, 0.679);
+}
+
+.box5{
+    width:200px;
+    height:500px;
+    background-color:rgb(179, 60, 190);
+}
+
+.box6{
+    width:200px;
+    height:200px;
+    background-color:rgba(172, 73, 181, 0.679);
+}
+
+.menubox3{
+    display: flex;
+    margin: 0px auto;
+    width:50%;
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:rgba(255, 255, 255, 0.679);
+
+}
+
+.pag7{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 200px;
+    width:90px;
+    height:40px;
+    background-color:rgba(172, 73, 181, 0.679);
+    color: white;
+    border-radius:10px;
+}
+
+.pag8{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:90px;
+    height:40px;
+    background-color:rgba(172, 73, 181, 0.679);
+    color: white;
+    border-radius:10px;
+}
+
+.pag9{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 200px;
+    width:90px;
+    height:40px;
+    background-color:rgba(172, 73, 181, 0.679);
+    color: white;
+    border-radius:10px;
+}
